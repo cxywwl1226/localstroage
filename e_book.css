@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 2.67vw;
+}
+body{
+	width: 100%;
+}
+p{
+	word-wrap: break-word;
+}
+.choice_color{
+	width: 100%;
+	height: 4em;
+	background: black;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.choice_color li{
+	list-style: none;
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 20%;
+}
+.red{
+	background: red;
+}
+.blue{
+	background: blue;
+}
+.yellow{
+	background: yellow;
+}
+.pink{
+	background: pink;
+}
+.orange{
+	background: orange;
+}
+.green{
+	background: green;
+}
+.change_fontsize{
+	width: 100%;
+	height: 4em;
+	background: black;
+	position: fixed;
+	bottom: 4rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.change_fontsize li{
+	list-style: none;
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 20%;
+	border: 1px solid #fff;
+	color:#fff;
+	text-align: center;
+	line-height: 2.5rem;
+	font-size: 2rem;
+}
